@@ -1,0 +1,376 @@
+body{
+    display: block;
+    overflow-x: hidden;
+  }
+  
+  nav{
+    background-color: rgb(148, 148, 148);
+    height: 100px;
+  }
+  
+  .navbar-brand img {
+    max-height: 50px;
+  }
+  
+  .navbar-brand{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+     color: #afa7b9;
+  }
+  
+  nav ul li a{
+    color: #ce0000;
+    font-size: 22px;
+    margin: auto 10px; 
+  }
+  
+  nav ul li a:hover{
+    color: #ffffff;
+  }
+
+  @media (min-width: 1025px) {
+    .h-custom {
+      height: 100vh !important;
+    }
+  }
+
+
+  .koli{
+position: relative;
+width: 100%;
+height: 1000px;
+  background-color: rgb(255, 255, 255);}
+
+  .koli .zir{
+position: absolute;
+border: solid 2px black;
+height: 800px;
+width: 40%;
+top: 16%;
+left: 30%;
+  }
+  .koli .zir .leftborder{
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    width: 30%;
+    top: 12%;
+    left: 15%;
+    height: 70px;
+    background-color: white;
+
+  }
+  .koli .zir .leftborder #visa{
+  position: absolute;
+  left: 60%;
+  color: rgb(11, 65, 215);
+  top: 3%;
+
+  }
+
+  .koli .zir .leftborder #master{
+    position: absolute;
+    left: 7%;
+    color: rgb(255, 1, 1);
+    top: 3%;
+    }
+
+  .koli .zir .rightborder{
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    width: 30%;
+    top: 12%;
+    left: 55%;
+    height: 70px;
+    background-color: white;
+  }
+  .koli .zir .rightborder #payp{
+  position: absolute;
+  left: 34%;
+  color: blue;
+  top: 3%;
+  
+  }
+
+  .koli .zir .esmtext{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    color:rgb(0, 0, 0);
+  }
+  .koli .zir .esm{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    height: 50px;
+    width: 70%;
+    background-color:rgb(250, 250, 250);
+    
+  }
+
+  .koli .zir .avalin{
+    position: absolute;
+    left: 15%;
+    color: rgb(231, 64, 64);
+font-family:Arial, Helvetica, sans-serif ;
+top: 4%;
+  }
+
+  .koli .zir .cardtext{
+
+    position: absolute;
+    width: 30%;
+    top: 43%;
+    left: 15%;
+    height: 70px;
+    color: black;
+
+  }
+
+  .koli .zir .cardn{
+    position: absolute;
+    width: 30%;
+    top: 48%;
+    left: 15%;
+    height: 50px;
+    width: 30%;
+  }
+
+  .koli .zir .cvvtext{
+
+    position: absolute;
+    width: 30%;
+    top: 43%;
+    left: 54.5%;
+    height: 70px;
+    color: black;
+
+  }
+
+  .koli .zir .cvvn{
+    position: absolute;
+    width: 30%;
+    top: 48%;
+    left: 54.5%;
+    height: 50px;
+    width: 30%;
+  }
+
+  .koli .zir .exp{
+    position: absolute;
+    width: 30%;
+    top: 60%;
+    left: 15%;
+    height: 50px;
+    color: black;
+    
+  }
+
+  .koli .zir .expb{
+    position: absolute;
+    width: 30%;
+    top: 65%;
+    left: 15%;
+    height: 50px;
+    width: 30%;
+    width: 70%;
+
+  }
+
+
+  .koli .zir .subt{
+    position: absolute;
+    width: 30%;
+    top: 78%;
+    left: 15%;
+    height: 50px;
+    width: 30%;
+    width: 70%;
+    color: black;
+
+  }
+
+  .koli .zir .sub{
+    position: absolute;
+    width: 30%;
+    top: 78%;
+    left: 15%;
+    height: 50px;
+    width: 30%;
+    width: 70%;
+    color: rgb(253, 253, 253);
+    background-color: rgb(44, 63, 228);
+    font-size: 19px;
+    border: none;
+  }
+
+
+
+
+
+
+  footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.993);
+  }
+  
+  .main-content {
+    display: flex;
+  }
+  
+  .main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  
+  .box h2 {
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  
+  .box .content {
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  
+  .box .content:before {
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+  }
+  
+  .box .content:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #444444;
+    top: -10px;
+  }
+  
+  .left .content p {
+    text-align: justify;
+    color: white;
+  }
+  
+  .left .content .social {
+    margin: 20px 0 0 0;
+    
+  }
+  
+  .left .content .social a {
+    padding: 0 2px;
+    color: rgb(168, 2, 168);
+  
+  }
+  
+  .left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: #0f0f0f;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .left .content .social a span:hover {
+    background: #494848;
+  }
+  
+  .center .content .fas {
+    font-size: 1.4375rem;
+    background: #f8f7f7;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .center .content .fas:hover {
+    background: #646363;
+  }
+  
+  .center .content .text {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+    color: white;
+  }
+  
+  .center .content .phone {
+    margin: 15px 0;
+  }
+  
+  .right form .text {
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #ffffff;
+  }
+  
+  .right form .msg {
+    margin-top: 10px;
+  }
+  
+  .right form input,
+  .right form textarea {
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #ffffff;
+    padding-left: 10px;
+    border: 1px solid #222222;
+  }
+  
+  .right form input:focus,
+  .right form textarea:focus {
+    outline-color: #ffffff;
+  }
+  
+  .right form input {
+    height: 35px;
+  }
+  
+  .right form .btn {
+    margin-top: 10px;
+  }
+  
+  .right form .btn button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #f8f8f8;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .right form .btn button:hover {
+    background: rgb(136, 134, 134);
+  }
+  
+  @media screen and (max-width: 900px) {
+    footer {
+        position: relative;
+        bottom: 0px;
+    }
+    .main-content {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .main-content .box {
+        margin: 5px 0;
+    }
+  }
+  
